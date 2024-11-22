@@ -26,7 +26,7 @@ pip install matplotlib
 ```
 
 ## GitHub Repository
-You can find the source code on GitHub: [GitHub Repository Link]()
+You can find the source code on GitHub: [GitHub Repository Link](https://github.com/kjdutaro/CPU-scheduler-simulator)
 
 ## Usage Instructions
 1. **Download** the ZIP file of the project.
@@ -61,37 +61,6 @@ Another Sample Inputs:
 - **Priorities** (only needed for Priority Scheduling): `1, 3, 2, 5, 4, 1, 2, 3, 4, 5, 2, 1` (lower value means higher priority)
 - **Time Quantum** (only needed for Round Robin): `5`
 
-1. **FCFS**:
-   - Number of Processes: `4`
-   - Arrival Times: `0, 2, 4, 6`
-   - Burst Times: `5, 3, 1, 7`
-
-2. **SJF**:
-   - Number of Processes: `4`
-   - Arrival Times: `0, 1, 3, 5`
-   - Burst Times: `8, 4, 2, 6`
-
-3. **Priority**:
-   - Number of Processes: `5`
-   - Arrival Times: `0, 2, 3, 4, 5`
-   - Burst Times: `3, 5, 1, 7, 4`
-   - Priorities: `2, 1, 4, 3, 5`
-
-4. **Round Robin**:
-   - Number of Processes: `5`
-   - Arrival Times: `0, 2, 4, 6, 8`
-   - Burst Times: `3, 6, 4, 5, 2`
-   - Time Quantum: `3`
-
-5. **SRTF**:
-   - Number of Processes: `4`
-   - Arrival Times: `0, 1, 2, 4`
-   - Burst Times: `5, 3, 6, 2`
-
 ## Output
 - **Gantt Chart**: Displays the execution order and duration of processes on a timeline.
 - **Metrics Table**: Shows Turnaround Time (TAT) and Waiting Time (WT) for each process, along with the average TAT and WT.
-
-## License
-This project is licensed under the MIT License. Feel free to use and modify it as needed.
-
